@@ -63,7 +63,7 @@ public class NpcLlmDriver : MonoBehaviour
 
         // Radius je Frame neu berechnen 
         radius = Mathf.Max(0, distance) *
-                 PlayerFac((p - prevP).magnitude / Mathf.Max(Time.deltaTime, 0.001f)) *
+                 PlayerFac((p - prevP).magnitude / Mathf.Max(Time.deltaTime, 0.001f)) * //Distanz, die der Spieler seit dem letzten Frame zurückgelegt hat, geteilt durch die Zeit seit dem letzten Frame
                  NpcFac(ag.velocity.magnitude);
         prevP = p;
 
@@ -160,7 +160,7 @@ public class NpcLlmDriver : MonoBehaviour
             }
 
             // Delay abhängig von Distanz 
-            float t = Mathf.Clamp01(distance / baseRadius);      // 0 … 1
+            float t = Mathf.Clamp01(distance / baseRadius); 
             float delay = Mathf.Lerp(minQueryDelay, maxQueryDelay, t);
             yield return new WaitForSeconds(delay);
         }
@@ -205,6 +205,6 @@ public class NpcLlmDriver : MonoBehaviour
     static float R3(float v) => Mathf.Round(v * 1000f) * 0.001f;   // Rundet auf 3 Nachkommastellen
 
     // Bestimmt den Faktor je nach Geschwindigkeit, wie sich der Suchradius des NPCs verändert
-    float PlayerFac(float v) => v < 1.5f ? playerWalkFac : playerRunFac;
-    float NpcFac(float v) => v < 1.5f ? npcWalkFac : npcRunFac;
+    float PlayerFac(float v) => v < 0.1f ? 1f : (v < 1.5f ? playerWalkFac : playerRunFac);
+    float NpcFac(float v)    => v < 0.1f ? 1f : (v < 1.5f ? npcWalkFac    : npcRunFac);
 }
