@@ -1,7 +1,7 @@
 # Erweiterte Spielmechanik – Verfolger‑NPC
 
 Dieser Zusatz‑README ergänzt die ursprüngliche Projektdokumentation um die **neue Verfolger‑Mechanik**.  
-Alle Grundfunktionen (Labyrinth, Taschenlampe, Ray Tracing usw.) bleiben unverändert und sind weiterhin in der ersten README beschrieben.
+Alle Grundfunktionen (Labyrinth, Taschenlampe, Ray Tracing usw.) bleiben unverändert und sind weiterhin in der ersten README beschrieben.  
 Weiter Details sind im beigefügten Bericht "Abgabe_2_Stengl.pdf" zu finden.
 
 ---
