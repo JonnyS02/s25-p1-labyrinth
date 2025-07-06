@@ -12,8 +12,8 @@ Weiter Details sind im beigefügten Bericht "Abgabe_2_Stengl.pdf" zu finden.
 
 * Ein einzelner **Wächter‑NPC** patrouilliert jetzt das Labyrinth.
 * Berührt er den Spieler **frontal**, endet die Partie (Niederlage).
-* Beim **Kontakt von hinten** stolpert der Wächter, kriecht kurzzeitig sehr langsam und steht danach wieder auf.
-* Der NPC nutzt ein Geräusch‑basiertes **Suchsystem**: Er erhält nur einen Kreis (Mittelpunkt + Radius), in dem sich der Spieler vermutlich befindet.
+* Beim **Kontakt von hinten** stolpert der Wächter, kriecht kurzzeitig langsam und steht danach wieder auf.
+* Der NPC nutzt ein Geräusch‑basiertes **Suchsystem**: Er erhält nur einen Kreis (Mittelpunkt + Radius), in dem sich der Spieler irgendwo befindet.
 
 ---
 
@@ -51,7 +51,7 @@ Durch kontrolliertes Tempo kann der Spieler daher den Suchradius aktiv beeinflus
 
 Um das Spiel zu starten, sind folgende Schritte notwendig:
 
-1. Den vollständigen Ordner **„Abgabe 2“** herunterladen. (Noch nicht den Ordner in Unity öffnen!)
+1. Den vollständigen Ordner **„Abgabe 2“** herunterladen. (Den Ordner noch nicht in Unity öffnen!)
 2. In der Datei "Abgabe 2\Assets\NPC\OpenAIKey.txt" einen gültigen **OpenAI API‑Schlüssel** eintragen.
 3. Das NPC‑Modell unter folgendem Link herunterladen und speichern: https://jonathan-stengl.de/Ch35_nonPBR.fbx (Die Datei war zu groß für das Github-Projekt)
 4. Die heruntergeladene Datei in den Ordner "Abgabe 2\Assets\NPC\" verschieben.
