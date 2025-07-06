@@ -53,7 +53,7 @@ Um das Spiel zu starten, sind folgende Schritte notwendig:
 
 1. Den vollständigen Ordner **„Abgabe 2“** herunterladen. (Noch nicht den Ordner in Unity öffnen!)
 2. In der Datei "Abgabe 2\Assets\NPC\OpenAIKey.txt" einen gültigen **OpenAI API‑Schlüssel** eintragen.
-3. Das NPC‑Modell unter folgendem Link herunterladen und speichern: https://jonathan-stengl.de/Ch35_nonPBR.fbx (Die Date war zugroß für das Github-Projekt)
+3. Das NPC‑Modell unter folgendem Link herunterladen und speichern: https://jonathan-stengl.de/Ch35_nonPBR.fbx (Die Datei war zu groß für das Github-Projekt)
 4. Die heruntergeladene Datei in den Ordner "Abgabe 2\Assets\NPC\" verschieben.
 5. In Unity die Szene "Abgabe 2\Assets\MainScene.unity" öffnen und das Spiel starten.
   
