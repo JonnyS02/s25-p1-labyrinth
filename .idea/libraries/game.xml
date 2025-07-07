@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="game">
-    <CLASSES>
-      <root url="jar://$PROJECT_DIR$/Henri-Welsch/game.zip!/" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>
